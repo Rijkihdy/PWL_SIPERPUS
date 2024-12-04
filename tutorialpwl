@@ -1,0 +1,28 @@
+<!-- (Jika pertemuan minggu kemarin tidak beres di project kalian)
+
+*GAK PERLU LOGIN GITHUB
+*GAK PERLU KONFIGURASI GIT
+*JANGAN LUPA AKTIFKAN XAMPP
+
+BUKA CMD
+
+jalankan cloning projek di bawah ini
+git clone https://github.com/aslabtif-unsur/pwl-2-2024-PR.git
+
+
+cd pwl-2-2024-PR
+code .
+
+DI VSCODE
+bash 1: composer install                        bash 2: npm install
+        cp .env.example .env                            npm run dev (done)
+        php artisan key:generate
+        php artisan migrate:fresh --seed
+        php artisan serv (done)
+
+bash 3: php artisan storage:link
+	php artisan optimize:clear -->
+
+
+<!-- buat nge pdf in
+composer require barryvdh/laravel-dompdf -->
